@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/mtv"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="731dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/dtv"
+            tools:layout_editor_absoluteX="175dp" app:layout_constraintTop_toBottomOf="@+id/mtv"
+    />
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ttv" app:layout_constraintTop_toBottomOf="@+id/dtv"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"/>
+    <CheckBox
+            android:text="Запомнить"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lcheck"
+            tools:layout_editor_absoluteX="157dp" app:layout_constraintTop_toBottomOf="@+id/ttv"
+            android:layout_marginTop="32dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

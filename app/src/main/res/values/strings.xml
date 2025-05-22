@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kucherAndroid</string>
+    <string name="text">text</string>
+    <string name="number">number</string>
+    <string name="save">save</string>
+    <string name="load">load</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Matches_Activity">
+
+    <Button
+            android:text="Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/addBut"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="328dp"/>
+    <EditText android:layout_width="189dp"
+              android:layout_height="73dp"
+              android:hint="Team 1"
+              android:id="@+id/InfoET1" app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginTop="96dp" app:layout_constraintHorizontal_bias="0.022"/>
+    <EditText android:layout_width="189dp"
+              android:layout_height="73dp"
+              android:hint="Team 2"
+              android:id="@+id/InfoET2" app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginTop="96dp" app:layout_constraintHorizontal_bias="0.927"/>
+    <EditText android:layout_width="189dp"
+              android:layout_height="73dp"
+              android:hint="Points 1"
+              android:id="@+id/InfoET3" app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginTop="252dp" app:layout_constraintHorizontal_bias="0.022"/>
+    <EditText android:layout_width="189dp"
+              android:layout_height="73dp"
+              android:hint="Points 2"
+              android:id="@+id/InfoET4" app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginTop="252dp" app:layout_constraintHorizontal_bias="0.927"/>
+    <TextView
+            android:text="Teams names"
+            android:layout_width="133dp"
+            android:layout_height="67dp" android:id="@+id/textView3"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="28dp"
+            app:layout_constraintHorizontal_bias="0.057"/>
+    <TextView
+            android:text="Team points"
+            android:layout_width="133dp"
+            android:layout_height="67dp" android:id="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.057" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="192dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

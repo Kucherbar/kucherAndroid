@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forbes"
+    >
+        <item>Bill Gates</item>
+        <item>Jeff Besos</item>
+        <item>Anton Trifonov</item>
+        <item>Elisey Muzeleev</item>
+    </string-array>
+    <string-array name="month"
+    >
+        <item>Bill Gates</item>
+        <item>Jeff Besos</item>
+        <item>Anton Trifonov</item>
+        <item>Elisey Muzeleev</item>
+    </string-array>
+</resources>
